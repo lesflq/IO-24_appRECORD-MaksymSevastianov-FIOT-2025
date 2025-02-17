@@ -78,16 +78,22 @@ const Laboratorna1 = () => {
 
             <ul>
                 <li>
-                    Посилання на репозиторій власного WEB-застосунку:<a></a>
+                
+                Посилання на репозиторій власного WEB-застосунку:  
+                <a href="https://github.com/lesflq/learning-management-system/tree/lab-1-web-architecture" 
+                 target="_blank"> Переглянути репозиторій</a>
+
+                </li>
+                <li> Посилання на репозиторій на живу сторінку власного WEB-застосунку:
+                <a href="https://lesflq.github.io/learning-management-system/" 
+                 target="_blank"> Переглянути сторінку</a>
                 </li>
                 <li>
-                    Посилання на репозиторій на живу сторінку власного WEB-застосунку:<a></a>
+                    Посилання на репозиторій звітного HTML-документа:<a href='https://github.com/lesflq/lms-reports' target="_blank"> Переглянути репозиторій</a>
                 </li>
                 <li>
-                    Посилання на репозиторій звітного HTML-документа:<a></a>
-                </li>
-                <li>
-                    Посилання на репозиторій на живу сторінку звітного HTML-документу:<a></a>
+                    Посилання на репозиторій на живу сторінку звітного HTML-документу:<a href="https://lesflq.github.io/lms-reports" 
+                 target="_blank"> Переглянути сторінку</a>
                 </li>
                 <li>
                     Посилання на репозиторій з самостійними роботами:<a></a>
