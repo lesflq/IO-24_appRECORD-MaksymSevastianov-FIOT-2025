@@ -2,7 +2,7 @@ import React from 'react'
 
 const Laboratorna6 = () => {
     return (
-        <div>Laboratorna6</div>
+        <div>Lab work 6</div>
     )
 }
 export default Laboratorna6

@@ -20,15 +20,15 @@ const MyComponent = () => {
                 <MainText/>
                 <Navigation/>
                 <Routes>
-                    <Route path="/l1" element={<Laboratorna1/>} />
-                    <Route path="/l2" element={<Laboratorna2/>} />
-                    <Route path="/l3" element={<Laboratorna3/>} />
-                    <Route path="/l4" element={<Laboratorna4/>} />
-                    <Route path="/l5" element={<Laboratorna5/>} />
-                    <Route path="/l6" element={<Laboratorna6/>} />
-                    <Route path="/l7" element={<Laboratorna7/>} />
-                    <Route path="/l8" element={<Laboratorna8/>} />
-                    <Route path="/l9" element={<Laboratorna9/>} />
+                    <Route path="/lms-reports/l1" element={<Laboratorna1/>} />
+                    <Route path="/lms-reports/l2" element={<Laboratorna2/>} />
+                    <Route path="/lms-reports/l3" element={<Laboratorna3/>} />
+                    <Route path="/lms-reports/l4" element={<Laboratorna4/>} />
+                    <Route path="/lms-reports/l5" element={<Laboratorna5/>} />
+                    <Route path="/lms-reports/l6" element={<Laboratorna6/>} />
+                    <Route path="/lms-reports/l7" element={<Laboratorna7/>} />
+                    <Route path="/lms-reports/l8" element={<Laboratorna8/>} />
+                    <Route path="/lms-reports/l9" element={<Laboratorna9/>} />
                 </Routes>
             </div>
         </Router>
