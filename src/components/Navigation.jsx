@@ -2,6 +2,7 @@ import React, {useState } from 'react';
 import { assets } from "../assets/assets.js";
 import { Link, NavLink } from "react-router-dom";
 
+const baseUrl = import.meta.env.VITE_BASE_URL || '';
 
 const Navigation = () => {
 
@@ -10,31 +11,31 @@ const Navigation = () => {
     return (
         <div className='flex items-center justify-between py-5 font-medium'>
             <ul className='hidden sm:flex gap-5 text-sm'>
-                <NavLink to='/lms-reports/l1' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab1`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №1</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l2' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab2`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №2</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l3' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab3`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №3</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l4' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab4`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №4</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l5' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab5`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №5</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l6' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab6`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №6</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l7' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab7`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №7</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l8' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab8`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №8</p>
                 </NavLink>
-                <NavLink to='/lms-reports/l9' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                <NavLink to={`${baseUrl}/lab9`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №9</p>
                 </NavLink>
             </ul>
