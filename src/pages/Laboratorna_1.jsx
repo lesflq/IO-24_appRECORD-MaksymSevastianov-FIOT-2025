@@ -70,8 +70,7 @@ const Laboratorna1 = () => {
 
             <p>
                 Мета: Придбати практичні навички роботи з GitHub, репозиторіями, HTML-документом, таблицями,
-                зображеннями,
-                посиланнями, списками, формами. Створити шаблон звітного HTML-документом для відображення
+                зображеннями, посиланнями, списками, формами. Створити шаблон звітного HTML-документом для відображення
                 результатів роботи всіх лабораторних робіт.
             </p>
 
@@ -80,23 +79,24 @@ const Laboratorna1 = () => {
                 <li>
                 
                 Посилання на репозиторій власного WEB-застосунку:  
-                <a href="https://github.com/lesflq/learning-management-system/tree/lab-1-web-architecture" 
+                <a href="https://github.com/lesflq/IO-24_appWEB-MaksymSevastianov-FIOT-2025/tree/lab-1-web-architecture" 
                  target="_blank"> Переглянути репозиторій</a>
 
                 </li>
                 <li> Посилання на репозиторій на живу сторінку власного WEB-застосунку:
-                <a href="https://lesflq.github.io/learning-management-system/" 
+                <a href="https://lesflq.github.io/IO-24_appWEB-MaksymSevastianov-FIOT-2025/" 
                  target="_blank"> Переглянути сторінку</a>
                 </li>
                 <li>
-                    Посилання на репозиторій звітного HTML-документа:<a href='https://github.com/lesflq/lms-reports' target="_blank"> Переглянути репозиторій</a>
+                    Посилання на репозиторій звітного HTML-документа:<a href='https://github.com/lesflq/IO-24_appRECORD-MaksymSevastianov-FIOT-2025' target="_blank"> Переглянути репозиторій</a>
                 </li>
                 <li>
-                    Посилання на репозиторій на живу сторінку звітного HTML-документу:<a href="https://lesflq.github.io/lms-reports" 
+                    Посилання на репозиторій на живу сторінку звітного HTML-документу:<a href="https://lesflq.github.io/IO-24_appRECORD-MaksymSevastianov-FIOT-2025/" 
                  target="_blank"> Переглянути сторінку</a>
                 </li>
                 <li>
-                    Посилання на репозиторій з самостійними роботами:<a></a>
+                    Посилання на репозиторій з самостійними роботами:<a href="https://github.com/lesflq/IO-24_INDEPENDENT-MaksymSevastianov-FIOT-2025" 
+                 target="_blank">Переглянути репозиторій</a>
                 </li>
                 <li>
                     Посилання на репозиторій живу сторінку з самостійними роботами:<a></a>
