@@ -95,11 +95,12 @@ const Laboratorna1 = () => {
                  target="_blank"> Переглянути сторінку</a>
                 </li>
                 <li>
-                    Посилання на репозиторій з самостійними роботами:<a href="https://github.com/lesflq/IO-24_INDEPENDENT-MaksymSevastianov-FIOT-2025" 
-                 target="_blank">Переглянути репозиторій</a>
+                    Посилання на репозиторій з самостійними роботами:<a href="https://github.com/lesflq/IO-24_INDEPENDENT-MaksymSevastianov-FIOT-2025/tree/independent-work-1" 
+                 target="_blank"> Переглянути репозиторій</a>
                 </li>
                 <li>
-                    Посилання на репозиторій живу сторінку з самостійними роботами:<a></a>
+                    Посилання на репозиторій живу сторінку з самостійними роботами:<a href="https://lesflq.github.io/IO-24_INDEPENDENT-MaksymSevastianov-FIOT-2025/"
+                     target="_blank"> Переглянути сторінку</a>
                 </li>
             </ul>
             <div className="mb-4 mt-4">
