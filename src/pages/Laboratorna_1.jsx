@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {assets} from "../assets/assets.js";
 
+const tasks = [
+    { id: 1, title: "Предметне середовище та Бізнес-логіка" },
+    { id: 2, title: "Тема, мета, місце розташування" },
+    { id: 3, title: "Структура документа" },
+    { id: 4, title: "Висновок" },
+];
+
 const Laboratorna1 = () => {
-    return (
-        <div>
-            <div className="text-base font-light leading-relaxed mt-5">
+
+    const [activeTask, setActiveTask] = useState(1);
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+
+    const renderContent = () => {
+        switch (activeTask) {
+            case 1:
+                return <div>
+                    <div className="text-base font-light leading-relaxed mt-5">
                 <div className="mb-4">
                     <p className="font-semibold text-xl">ПРЕДМЕТНЕ СЕРЕДОВИЩЕ</p>
                 </div>
@@ -57,8 +70,10 @@ const Laboratorna1 = () => {
                     <li>Можливість інтеграції з іншими освітніми платформами та аналітичними інструментами.</li>
                 </ol>
             </div>
-
-            <div className="mb-4 mt-4">
+        </div>;
+        case 2:
+            return <div>
+                <div className="mb-4 mt-4">
                 <p className="font-semibold text-xl">Тема, мета, місце розташування WEB-застосунка та місце
                     звітного HTML-документу</p>
             </div>
@@ -103,7 +118,10 @@ const Laboratorna1 = () => {
                      target="_blank"> Переглянути сторінку</a>
                 </li>
             </ul>
-            <div className="mb-4 mt-4">
+        </div>;
+        case 3:
+            return <div>
+                <div className="mb-4 mt-4">
                 <p className="font-semibold text-xl">СТРУКТУРА ДОКУМЕНТА</p>
             </div>
 
@@ -217,8 +235,10 @@ const Laboratorna1 = () => {
             <p>
             Завдяки стилям Tailwind CSS списки виглядають естетично та адаптуються до різних розмірів екрана.
             </p>
-
-            <div className="mb-4 mt-4">
+        </div>;
+        case 4:
+            return <div>
+                <div className="mb-4 mt-4">
                 <p className="font-semibold text-xl">ВИСНОВОК</p>
             </div>
             <p>У процесі виконання лабораторної роботи я здобув практичні навички роботи з HTML, GitHub та Figma, які застосував
@@ -268,8 +288,44 @@ const Laboratorna1 = () => {
             навчитися працювати з GitHub, освоїти процес макетування у Figma, а також отримати навички
             організації коду та роботи з репозиторіями. Отримані знання та практичні навички стануть
             важливим фундаментом для подальшого розвитку Learnify та поглибленого вивчення веб-розробки.</p>
+            </div>;
+        default:
+            return <div>Виберіть розділ</div>
 
+        }
+    }
 
+    return (
+        <div className="min-h-screen">
+            <h1 className="text-4xl font-bold text-center mt-8 mb-8">Лабораторна робота 1</h1>
+            <div className="flex flex-col lg:flex-row items-start gap-5 mt-5 px-4">
+                {/* Sidebar */}
+                <div
+                    className={`flex flex-col gap-2 w-64 lg:w-48 ${sidebarOpen ? 'block' : 'hidden'} lg:block`}>
+                    {tasks.map(task => (
+                        <p
+                            key={task.id}
+                            className={`pl-3 py-2 border rounded transition-all cursor-pointer mt-4`}
+                            onClick={() => setActiveTask(task.id)}
+                        >
+                            {task.title}
+                        </p>
+                    ))}
+                </div>
+
+                {/* Toggle Sidebar Button */}
+                <button
+                    className="lg:hidden p-2 border border-gray-300 rounded bg-white mb-4"
+                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                >
+                    {sidebarOpen ? 'Закрити меню' : 'Відкрити меню'}
+                </button>
+
+                {/* Content */}
+                <div className="w-full grid grid-cols-1 gap-4 gap-y-6">
+                    {renderContent()}
+                </div>
+            </div>
         </div>
     )
 }
