@@ -29,6 +29,25 @@ import css_font_code from './Images/css_font_code.png'
 import css_outline_code from './Images/css_outline_code.png'
 import css_bg_code from './Images/css_bg_code.png'
 import css_advanced_code from './Images/css_advanced_code.png'
+import lab3_1 from './Images/lab3_1.png'
+import lab3_2 from './Images/lab3_2.png'
+import lab3_3 from './Images/lab3_3.png'
+import lab3_4 from './Images/lab3_4.png'
+import lab3_5 from './Images/lab3_5.png'
+import lab3_task2_v1 from './Images/lab3_task2_v1.png'
+import lab3_task2_v2 from './Images/lab3_task2_v2.png'
+import lab3_girl from './Images/lab3_girl.png'
+import lab3_gallery1 from './Images/lab3_gallery1.png'
+import lab3_gallery2 from './Images/lab3_gallery2.png'
+import lab3_gallery3 from './Images/lab3_gallery3.png'
+import lab3_gallery4 from './Images/lab3_gallery4.png'
+import javascript_icon from './Images/javascript_icon.png'
+import java_icon from './Images/java_icon.png'
+import python_icon from './Images/python_icon.png'
+import lab3_code1 from './Images/lab3_code1.png'
+import lab3_code2 from './Images/lab3_code2.png'
+
+
 
 export const assets = {
     dropdown,
@@ -61,5 +80,22 @@ export const assets = {
     css_font_code,
     css_text_code,
     css_ul_code,
-    css_table_code
+    css_table_code,
+    lab3_1,
+    lab3_2,
+    lab3_3,
+    lab3_4,
+    lab3_5,
+    lab3_task2_v1,
+    lab3_task2_v2,
+    lab3_girl,
+    lab3_gallery1,
+    lab3_gallery2,
+    lab3_gallery3,
+    lab3_gallery4,
+    java_icon,
+    javascript_icon,
+    python_icon,
+    lab3_code1,
+    lab3_code2
 }
