@@ -23,9 +23,9 @@ const Laboratorna3 = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
     const courses = [
-        { name: "JAVASCRIPT", logo: assets.javascript_icon, seats: 5 },
-        { name: "PYTHON", logo: assets.python_icon, seats: 3 },
-        { name: "JAVA", logo: assets.java_icon, seats: 7 },
+        { name: "JAVASCRIPT", logo: assets.javascript_icon, seats: 5, duration: "5-11" },
+        { name: "PYTHON", logo: assets.python_icon, seats: 3, duration: "6-11" },
+        { name: "JAVA", logo: assets.java_icon, seats: 7, duration: "6-11" },
       ];
 
     
@@ -39,12 +39,12 @@ const Laboratorna3 = () => {
                     </div>
         
                     <p>
-                        Тема: КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.
+                        Тема: ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА ЗАСОБАМИ CSS та FLEXBOX.
                     </p>
         
                     <p>
-                        Мета: Придбати практичні навички роботи  з селекторами, ідентифікаторами, списками,  різноманітними властивостями кольору
-                         і фону,  зовнішними та внутрішними  відступами,  плаваючими елементами, оформленням текстових елементів.
+                        Мета: Придбати практичні навички роботи верстки сторінок засобами CSS, верстки на основі плаваючих елементів,
+                         з’ясувати переваги та недоліки типів макетів веб-сторінок ⎯ придбати практичні навички роботи верстки сторінок засобами CSS та FLEXBOX
                     </p>
                     <ul>
                         <li>
@@ -313,10 +313,10 @@ const Laboratorna3 = () => {
                             <p className="text-orange-500 mt-2">Комплексний курс</p>
                             <div className="mt-8 text-sm text-start mx-10 space-y-1 text-white">
                                 <p>Стартовий рівень: початківець</p>
-                                <p>Тривалість: 5-11 місяців</p>
+                                <p>Тривалість: {course.duration} місяців</p>
                                 <p>Ціна: від 14500грн.</p>
                             </div>
-                            <p className="text-blue-500 mt-8 font-medium">Залишилось місць</p>
+                            <p className="text-blue-500 mt-8 font-medium">Залишилось місць {course.seats}</p>
 
                             <div className="border-t-2 border-gray-200 bg-zinc-600 rounded-b-lg mt-8">
                                 <a href="#"
@@ -344,7 +344,12 @@ const Laboratorna3 = () => {
                 <div className="flex items-center">
                     <img src={assets.lab3_girl} alt="IT Job" className="w-1/2 h-170" />
                     <div className="w-1/2 p-6 text-lg">
-                    <p>Робота в IT - це високі зарплати, кар'єрні перспективи та можливість працювати віддалено.</p>
+                    <p>Робота в ІТ - це високі зарплати, можливість віддаленої співпраці із закордонними компаніями і свобода вибору.
+                         Але є і мінуси. Низький старт - головний з них. Фахівцю без досвіду складно отримати робочий стаж,
+                          а зарплата коливається на рівні мінімальної. <br />На курсах з інкубатором наші студенти
+                          отримують додаткових 5 місяців досвіду який так сильно вимагають роботодавці.
+                    <br />3 таким резюме ви станете бажаним
+                    кандидатом для будь-якої компанії.</p>
                     </div>
                 </div>
                 </div>

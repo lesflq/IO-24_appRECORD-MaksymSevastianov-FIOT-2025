@@ -46,6 +46,9 @@ import java_icon from './Images/java_icon.png'
 import python_icon from './Images/python_icon.png'
 import lab3_code1 from './Images/lab3_code1.png'
 import lab3_code2 from './Images/lab3_code2.png'
+import view_pc from './Images/view_pc.png'
+import view_phone from './Images/view_phone.png'
+import view_tablet from './Images/view_tablet.png'
 
 
 
@@ -97,5 +100,8 @@ export const assets = {
     javascript_icon,
     python_icon,
     lab3_code1,
-    lab3_code2
+    lab3_code2,
+    view_pc,
+    view_phone,
+    view_tablet
 }
