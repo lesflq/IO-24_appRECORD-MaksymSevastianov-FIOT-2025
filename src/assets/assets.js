@@ -49,6 +49,30 @@ import lab3_code2 from './Images/lab3_code2.png'
 import view_pc from './Images/view_pc.png'
 import view_phone from './Images/view_phone.png'
 import view_tablet from './Images/view_tablet.png'
+import lab4_task1_code from './Images/lab4_task1_code.png'
+import lab4_task1_result from './Images/lab4_task1_result.png'
+import lab4_task3_code from './Images/lab4_task3_code.png'
+import lab4_task3_result from './Images/lab4_task3_result.png'
+import lab4_task5_code from './Images/lab4_task5_code.png'
+import lab4_task5_result from './Images/lab4_task5_result.png'
+import lab4_task7_code from './Images/lab4_task7_code.png'
+import lab4_task71_code from './Images/lab4_task71_code.png'
+import lab4_task7_result from './Images/lab4_task7_result.png'
+import lab4_task9_code from './Images/lab4_task9_code.png'
+import lab4_task9_result from './Images/lab4_task9_result.png'
+import lab4_task10_code from './Images/lab4_task10_code.png'
+import lab4_task10_result from './Images/lab4_task10_result.png'
+import lab4_task21_code from './Images/lab4_task21_code.png'
+import lab4_task21_result from './Images/lab4_task21_result.png'
+import lab4_task23_code from './Images/lab4_task23_code.png'
+import lab4_task23_result from './Images/lab4_task23_result.png'
+import lab4_task25_code from './Images/lab4_task21_code.png'
+import lab4_task25_result from './Images/lab4_task21_result.png'
+import lab4_task271_code from './Images/lab4_task271_code.png'
+import lab4_task272_code from './Images/lab4_task272_code.png'
+import lab4_task27_result from './Images/lab4_task27_result.png'
+
+
 
 
 
@@ -103,5 +127,27 @@ export const assets = {
     lab3_code2,
     view_pc,
     view_phone,
-    view_tablet
+    view_tablet,
+    lab4_task1_code,
+    lab4_task1_result,
+    lab4_task3_code,
+    lab4_task3_result,
+    lab4_task5_code,
+    lab4_task5_result,
+    lab4_task7_code,
+    lab4_task71_code,
+    lab4_task7_result,
+    lab4_task9_code,
+    lab4_task9_result,
+    lab4_task10_code,
+    lab4_task10_result,
+    lab4_task21_code,
+    lab4_task21_result,
+    lab4_task23_code,
+    lab4_task23_result,
+    lab4_task25_code,
+    lab4_task25_result,
+    lab4_task271_code,
+    lab4_task272_code,
+    lab4_task27_result
 }

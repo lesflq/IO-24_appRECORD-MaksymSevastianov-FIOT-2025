@@ -17,8 +17,11 @@ const Navigation = () => {
                 <NavLink to={`${baseUrl}/lab2`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №2</p>
                 </NavLink>
-                <NavLink to={`${baseUrl}/lab3`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
-                    <p>Лабораторна робота №3</p>
+                <NavLink to={`${baseUrl}/lab3_1`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                    <p>Лабораторна робота №3.1</p>
+                </NavLink>
+                <NavLink to={`${baseUrl}/lab3_2`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                    <p>Лабораторна робота №3.2</p>
                 </NavLink>
                 <NavLink to={`${baseUrl}/lab4`} className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №4</p>
@@ -56,17 +59,19 @@ const Navigation = () => {
                         №1</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l2'>Лабораторна робота
                         №2</NavLink>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l3'>Лабораторна робота
-                        №3</NavLink>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l4'>Лабораторна робота
-                        №4</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l3_1'>Лабораторна робота
+                        №3.1</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l3_2'>Лабораторна робота
+                        №3.2</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l5'>Лабораторна робота
-                        №5</NavLink>
+                        №4</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l6'>Лабораторна робота
-                        №6</NavLink>
+                        №5</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l7'>Лабораторна робота
-                        №7</NavLink>
+                        №6</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l8'>Лабораторна робота
+                        №7</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l9'>Лабораторна робота
                         №8</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/l9'>Лабораторна робота
                         №9</NavLink>

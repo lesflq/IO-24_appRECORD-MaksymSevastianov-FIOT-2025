@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation.jsx";
 import Laboratorna1 from "./pages/Laboratorna_1.jsx";
 import Laboratorna2 from "./pages/Laboratorna_2.jsx";
-import Laboratorna3 from "./pages/Laboratorna_3.jsx";
+import Laboratorna3_1 from "./pages/Laboratorna_3_1.jsx";
+import Laboratorna3_2 from "./pages/Laboratorna_3_2.jsx";
 import Laboratorna4 from "./pages/Laboratorna_4.jsx";
 import Laboratorna5 from "./pages/Laboratorna_5.jsx";
 import Laboratorna6 from "./pages/Laboratorna_6.jsx";
@@ -23,7 +24,8 @@ const MyComponent = () => {
                 <Routes>
                     <Route path={`${baseUrl}/lab1`} element={<Laboratorna1/>} />
                     <Route path={`${baseUrl}/lab2`} element={<Laboratorna2/>} />
-                    <Route path={`${baseUrl}/lab3`} element={<Laboratorna3/>} />
+                    <Route path={`${baseUrl}/lab3_1`} element={<Laboratorna3_1/>} />
+                    <Route path={`${baseUrl}/lab3_2`} element={<Laboratorna3_2/>} />
                     <Route path={`${baseUrl}/lab4`} element={<Laboratorna4/>} />
                     <Route path={`${baseUrl}/lab5`} element={<Laboratorna5/>} />
                     <Route path={`${baseUrl}/lab6`} element={<Laboratorna6/>} />

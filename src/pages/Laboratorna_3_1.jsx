@@ -2,7 +2,7 @@ import React, {useState}  from 'react'
 import {assets} from "../assets/assets.js";
 
 const tasks = [
-    {id: 1, title: "Тема, мета ЛР №3, Місце розташування сайту, звіту"},
+    {id: 1, title: "Тема, мета ЛР №3.1, Місце розташування сайту, звіту"},
     {id: 2, title: "Завдання №1. Зовнішній вигляд макету. Код макету"},
     {id: 3, title: "Завдання №2"},
     {id: 4, title: "Фіксована таблична верстка"},
@@ -17,7 +17,7 @@ const tasks = [
 ];
 
 
-const Laboratorna3 = () => {
+const Laboratorna3_1 = () => {
 
     const [activeTask, setActiveTask] = useState(1);
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -460,7 +460,7 @@ const Laboratorna3 = () => {
     
     return (
         <div className="min-h-screen">
-            <h1 className="text-4xl font-bold text-center mt-8 mb-8">Лабораторна робота 3</h1>
+            <h1 className="text-4xl font-bold text-center mt-8 mb-8">Лабораторна робота 3.1</h1>
             <div className="flex flex-col lg:flex-row items-start gap-5 mt-5 px-4">
                 {/* Sidebar */}
                 <div
@@ -490,4 +490,4 @@ const Laboratorna3 = () => {
         </div>
     );
 };
-export default Laboratorna3
+export default Laboratorna3_1
