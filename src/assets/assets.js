@@ -83,6 +83,13 @@ import lab5_1_task6_1 from './Images/lab5_1_task6_1.png'
 import lab5_1_task6_2 from './Images/lab5_1_task6_2.png'
 import lab5_1_task7_1 from './Images/lab5_1_task7_1.png'
 import lab5_1_task7_2 from './Images/lab5_1_task7_2.png'
+import lab5_2_task1_1 from './Images/lab5_2_task1_1.png'
+import lab5_2_task1_2 from './Images/lab5_2_task1_2.png'
+import lab5_2_task2_1 from './Images/lab5_2_task2_1.png'
+import lab5_2_task2_2 from './Images/lab5_2_task2_2.png'
+
+
+
 
 
 
@@ -173,6 +180,10 @@ export const assets = {
     lab5_1_task6_1,
     lab5_1_task6_2,
     lab5_1_task7_1,
-    lab5_1_task7_2
+    lab5_1_task7_2,
+    lab5_2_task1_1,
+    lab5_2_task1_2,
+    lab5_2_task2_1,
+    lab5_2_task2_2
     
 }
