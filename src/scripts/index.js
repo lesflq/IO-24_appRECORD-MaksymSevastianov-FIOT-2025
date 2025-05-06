@@ -1,3 +1,4 @@
+console.log("Task 1.1")
 function createProduct(obj, callback) {
     const product = { ...obj, id: Date.now() }; // Додаємо унікальний ID
     callback(product);
@@ -15,6 +16,8 @@ const productData = { name: "Laptop", price: 1200, quantity: 2 };
 
 createProduct(productData, logProduct);
 createProduct(productData, logTotalPrice);
+
+console.log("Task 1.3")
 
 const medicines = {
     Агалгін: new Date("2022-05-01"),
@@ -35,6 +38,8 @@ const validMedicines = Object.entries(medicines)
 
 console.log(validMedicines);
 
+console.log("Task 1.5")
+
 const fruits = [
     { name: "apple", price: 200 },
     { name: "orange", price: 300 },
@@ -48,6 +53,8 @@ const fruits = [
   }));
   
   console.log(discountFruits);
+
+  console.log("Task 1.7")
   
   class Client {
     #login;
@@ -95,7 +102,7 @@ client.login = "newUser456";
 client.email = "newuser@example.com";
 
 console.log(client.login, client.email); // newUser456, newuser@example.com
-
+console.log("Task 1.9")
 const tweets = [
     { id: "000", likes: 5, tags: ["js", "nodejs"] },
     { id: "001", likes: 2, tags: ["html", "css"] },
@@ -113,6 +120,8 @@ const tagCount = tweets
     }, {});
 
 console.log(tagCount);
+
+console.log("Task 1.10")
 
 function checkBrackets(str) {
     const stack = [];
@@ -136,6 +145,8 @@ console.log(checkBrackets("{[(])}")); // false
 console.log(checkBrackets("function test() { return (a + b) * [c / d]; }")); // true
 console.log(checkBrackets("function test() { return (a + b * [c / d]; }")); // false
 
+console.log("Task 2.1")
+
 const data = [
     { id: 1, values: [1, 2, 3] },
     { id: 2, values: [4, 5, 6] },
@@ -144,20 +155,22 @@ const data = [
 
 const mergedValues = data.flatMap(item => item.values);
 console.log(mergedValues); 
-// Очікуваний результат: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+console.log("Task 2.3")
 
 const numbers = [2, 4, 6, 8, 10];
 
 const allEven = numbers.every(num => num % 2 === 0);
 console.log(allEven); 
-// Очікуваний результат: true
+
+console.log("Task 2.5")
 
 const stringArray = ["banana", "orange", "apple", "pear"];
 
 const sortedArray = stringArray.sort();
 console.log(sortedArray); 
-// Очікуваний результат: ["apple", "banana", "orange", "pear"]
 
+console.log("Task 2.7")
 class Calculator {
     constructor() {
         this.result = 0;
@@ -196,7 +209,7 @@ class Calculator {
     }
 }
 
-// Приклад використання:
+
 const calc = new Calculator();
 
 const result = calc

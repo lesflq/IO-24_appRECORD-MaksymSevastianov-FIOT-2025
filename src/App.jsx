@@ -6,12 +6,14 @@ import Laboratorna2 from "./pages/Laboratorna_2.jsx";
 import Laboratorna3_1 from "./pages/Laboratorna_3_1.jsx";
 import Laboratorna3_2 from "./pages/Laboratorna_3_2.jsx";
 import Laboratorna4 from "./pages/Laboratorna_4.jsx";
-import Laboratorna5 from "./pages/Laboratorna_5.jsx";
+import Laboratorna5 from "./pages/Laboratorna_5_1.jsx";
 import Laboratorna6 from "./pages/Laboratorna_6.jsx";
 import Laboratorna7 from "./pages/Laboratorna_7.jsx";
 import Laboratorna8 from "./pages/Laboratorna_8.jsx";
 import Laboratorna9 from "./pages/Laboratorna_9.jsx";
 import MainText from "./components/MainText.jsx";
+import Laboratorna5_2 from './pages/Laboratorna_5_2.jsx';
+import Laboratorna5_1 from './pages/Laboratorna_5_1.jsx';
 
 const baseUrl = import.meta.env.VITE_BASE_URL || '';
 
@@ -27,7 +29,8 @@ const MyComponent = () => {
                     <Route path={`${baseUrl}/lab3_1`} element={<Laboratorna3_1/>} />
                     <Route path={`${baseUrl}/lab3_2`} element={<Laboratorna3_2/>} />
                     <Route path={`${baseUrl}/lab4`} element={<Laboratorna4/>} />
-                    <Route path={`${baseUrl}/lab5`} element={<Laboratorna5/>} />
+                    <Route path={`${baseUrl}/lab5_1`} element={<Laboratorna5_1/>} />
+                    <Route path={`${baseUrl}/lab5_2`} element={<Laboratorna5_2/>} />
                     <Route path={`${baseUrl}/lab6`} element={<Laboratorna6/>} />
                     <Route path={`${baseUrl}/lab7`} element={<Laboratorna7/>} />
                     <Route path={`${baseUrl}/lab8`} element={<Laboratorna8/>} />

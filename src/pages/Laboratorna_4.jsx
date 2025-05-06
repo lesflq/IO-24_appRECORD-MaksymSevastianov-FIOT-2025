@@ -35,12 +35,12 @@ const Laboratorna4 = () => {
                             <li>
                             
                             Посилання на репозиторій власного WEB-застосунку:  
-                            <a href="https://github.com/lesflq/IO-24_appWEB-MaksymSevastianov-FIOT-2025/tree/lab-1-web-architecture" 
+                            <a href="https://github.com/lesflq/IO-24_appWEB-MaksymSevastianov-FIOT-2025-v2" 
                              target="_blank"> Переглянути репозиторій</a>
             
                             </li>
                             <li> Посилання на репозиторій на живу сторінку власного WEB-застосунку:
-                            <a href="https://lesflq.github.io/IO-24_appWEB-MaksymSevastianov-FIOT-2025/" 
+                            <a href="https://io-24-app-web-maksym-sevastianov-fiot-2025-front-end.vercel.app/" 
                              target="_blank"> Переглянути сторінку</a>
                             </li>
                             <li>

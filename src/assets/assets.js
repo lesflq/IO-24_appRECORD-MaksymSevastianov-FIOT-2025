@@ -71,6 +71,18 @@ import lab4_task25_result from './Images/lab4_task21_result.png'
 import lab4_task271_code from './Images/lab4_task271_code.png'
 import lab4_task272_code from './Images/lab4_task272_code.png'
 import lab4_task27_result from './Images/lab4_task27_result.png'
+import lab5_1_task1 from './Images/lab5_1_task1.png'
+import lab5_1_task2 from './Images/lab5_1_task2.png'
+import lab5_1_task3_1 from './Images/lab5_1_task3_1.png'
+import lab5_1_task3_2 from './Images/lab5_1_task3_2.png'
+import lab5_1_task4_1 from './Images/lab5_1_task4_1.png'
+import lab5_1_task4_2 from './Images/lab5_1_task4_2.png'
+import lab5_1_task5_1 from './Images/lab5_1_task5_1.png'
+import lab5_1_task5_2 from './Images/lab5_1_task5_2.png'
+import lab5_1_task6_1 from './Images/lab5_1_task6_1.png'
+import lab5_1_task6_2 from './Images/lab5_1_task6_2.png'
+import lab5_1_task7_1 from './Images/lab5_1_task7_1.png'
+import lab5_1_task7_2 from './Images/lab5_1_task7_2.png'
 
 
 
@@ -149,5 +161,18 @@ export const assets = {
     lab4_task25_result,
     lab4_task271_code,
     lab4_task272_code,
-    lab4_task27_result
+    lab4_task27_result,
+    lab5_1_task1,
+    lab5_1_task2,
+    lab5_1_task3_1,
+    lab5_1_task3_2,
+    lab5_1_task4_1,
+    lab5_1_task4_2,
+    lab5_1_task5_1,
+    lab5_1_task5_2,
+    lab5_1_task6_1,
+    lab5_1_task6_2,
+    lab5_1_task7_1,
+    lab5_1_task7_2
+    
 }
