@@ -87,12 +87,29 @@ import lab5_2_task1_1 from './Images/lab5_2_task1_1.png'
 import lab5_2_task1_2 from './Images/lab5_2_task1_2.png'
 import lab5_2_task2_1 from './Images/lab5_2_task2_1.png'
 import lab5_2_task2_2 from './Images/lab5_2_task2_2.png'
-
-
-
-
-
-
+import lab8_fetch_courses from './Images/lab8_fetch_courses.png'
+import lab8_schemas from './Images/lab8_schemas.png'
+import lab8_endpoints_courses from './Images/lab8_endpoints_courses.png'
+import lab8_connect_db from './Images/lab8_connect_db.png'
+import lab8_get_courses from './Images/lab8_get_courses.png'
+import lab8_couse_list_1 from './Images/lab8_course_list_1.png'
+import lab8_couse_list_2 from './Images/lab8_course_list_2.png'
+import lab9_manage_clerk from './Images/lab9_manage_clerk.png'
+import lab9_mongodb_cluster from './Images/lab9_mongodb_cluster.png'
+import lab9_middleware from './Images/lab9_middleware.png'
+import lab9_clerk_users from './Images/lab9_clerk_users.png'
+import lab9_sign_in from './Images/lab9_sign_in.png'
+import lab9_sign_up from './Images/lab9_sign_up.png'
+import lab9_token from './Images/lab9_token.png'
+import lab9_fetch_data from './Images/lab9_fetch_data.png'
+import lab9_use_clerk_1 from './Images/lab9_use_clerk_1.png'
+import lab9_use_clerk_2 from './Images/lab9_use_clerk_2.png'
+import lab7_app from './Images/lab7_app.png'
+import lab7_app_context from './Images/lab7_app_context.png'
+import lab6_await from './Images/lab6_await.png'
+import lab6_fetch from './Images/lab6_fetch.png'
+import lab6_endpoints from './Images/lab6_endpoints.png'
+import lab6_user_routes from './Images/lab6_user_routes.png'
 
 
 export const assets = {
@@ -184,6 +201,29 @@ export const assets = {
     lab5_2_task1_1,
     lab5_2_task1_2,
     lab5_2_task2_1,
-    lab5_2_task2_2
+    lab5_2_task2_2,
+    lab8_connect_db,
+    lab8_endpoints_courses,
+    lab8_fetch_courses,
+    lab8_get_courses,
+    lab8_schemas,
+    lab8_couse_list_2,
+    lab8_couse_list_1,
+    lab9_manage_clerk,
+    lab9_mongodb_cluster,
+    lab9_middleware,
+    lab9_clerk_users,
+    lab9_sign_in,
+    lab9_sign_up,
+    lab9_token,
+    lab9_fetch_data,
+    lab9_use_clerk_1,
+    lab9_use_clerk_2,
+    lab7_app,
+    lab7_app_context,
+    lab6_await,
+    lab6_endpoints,
+    lab6_fetch,
+    lab6_user_routes
     
 }
